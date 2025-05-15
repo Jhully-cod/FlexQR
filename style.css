@@ -1,0 +1,58 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte padrão */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Container principal */
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card do QR Code */
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 320px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagem do QR Code */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Título */
+.card h1 {
+  font-size: 1.375rem; /* 22px */
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  margin: 1rem 0 0.75rem;
+}
+
+/* Parágrafo */
+.card p {
+  font-size: 0.9375rem; /* 15px */
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 0 1rem 1rem;
+}
